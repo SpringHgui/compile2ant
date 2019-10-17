@@ -1,0 +1,11 @@
+{
+  "name": "compile2ant",
+  "version": "1.0.6",
+  "description": "compile2ant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SpringHgui",
+  "license": "MIT"
+}
