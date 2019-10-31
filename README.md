@@ -27,5 +27,9 @@ module.exports = {
 ### 编译
 
 ```console
+2.0.x
 wepy build -o ant -t ant --watch
+
+1.7.x
+./node_modules/.bin/wepy build -o ant -t ant --no-cache --watch
 ```
