@@ -26,8 +26,22 @@ module.exports = {
 
 ### 编译
 
-
-wepy 2.0.x
+直接执行以下命令
 ```console
-wepy build -o ant -t ant --watch
+./node_modules/.bin/wepy build -o ant -t ant --watch
+```
+或在 `package.json`添加`scripts`如下, 可执行 `npm run ant` 进行编译
+```
+{
+  "name": "xxx",
+  "version": "0.0.2",
+  "description": "A WePY project",
+  "main": "weapp/app.js",
+  "scripts": {
+    ...
+    "ant": "./node_modules/.bin/wepy build -o ant -t ant --watch",
+    ...
+  },
+  ...
+ }
 ```
