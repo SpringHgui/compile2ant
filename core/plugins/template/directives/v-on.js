@@ -109,7 +109,9 @@ exports = module.exports = function() {
     if(parsedEvent.type === 'bindtap'){
       parsedEvent.type = 'onTap'
     }
-    
+    if(parsedEvent.type === 'bindchange'){
+      parsedEvent.type = 'onChange'
+    }
     /**
      * we can recognition wxs dynamically
      * e.g:
