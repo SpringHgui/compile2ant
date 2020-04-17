@@ -13,9 +13,7 @@ npm install compile2ant -save-dev
 ```
 ### 配置
 
-```console
-wepy.config.js
-```
+`wepy.config.js`
 ```console
 const antPlugin = require('compile2ant');
 
