@@ -8,13 +8,13 @@ wepy2.0.x 编译为支付宝小程序代码插件
 
 ### 安装
 
-```console
+```
 npm install compile2ant -save-dev
 ```
 ### 配置
 
 `wepy.config.js`
-```console
+```
 const antPlugin = require('compile2ant');
 
 module.exports = {
@@ -30,7 +30,7 @@ module.exports = {
 ### 编译
 
 直接执行以下命令
-```console
+```
 ./node_modules/.bin/wepy build -o ant -t ant --watch
 ```
 或在 `package.json`添加`scripts`如下, 可执行 `npm run ant` 进行编译
