@@ -8,9 +8,12 @@ wepy2.0.x 编译为支付宝小程序代码插件
 
 ### 安装
 
+由于个人精力有限，测试未覆盖支付宝小程序的所有api，如编译后不能正常运行，请提交 issue 或直接 pr，会及时进行兼容
+
 ```
 npm install compile2ant -save-dev
 ```
+
 ### 配置
 
 `wepy.config.js`
@@ -48,3 +51,10 @@ module.exports = {
   ...
  }
 ```
+### 重要的事情
+
+支付宝小程序 `启用 component2 编译` 一定要开启  
+支付宝小程序 `启用 component2 编译` 一定要开启  
+支付宝小程序 `启用 component2 编译` 一定要开启  
+
+### MIT
