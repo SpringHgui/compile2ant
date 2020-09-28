@@ -1,5 +1,7 @@
 # compile2ant
-wepy2.0.x 编译为支付宝小程序代码插件
+wepy2.0.x 编译为支付宝小程序代码插件  
+
+npm：https://www.npmjs.com/package/compile2ant
 
 ### 注意事项
 插件仅支持 `2.0.0-alpha.21`之后的版本，请将cli先升级至最新版。
