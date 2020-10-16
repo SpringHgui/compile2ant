@@ -3,7 +3,7 @@
 ![NPM](https://img.shields.io/npm/l/compile2ant)
 [![npm](https://img.shields.io/npm/dy/compile2ant)](https://www.npmjs.com/package/compile2ant)
 
-wepy2.0.x 编译为支付宝小程序代码插件 
+wepy2.0.x 编译为支付宝小程序代码插件 1
 
 ### 注意事项
 插件仅支持 `2.0.0-alpha.21`之后的版本，请将cli先升级至最新版。
