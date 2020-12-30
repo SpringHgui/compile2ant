@@ -1,6 +1,6 @@
 {
   "name": "compile2ant",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "compile2ant",
   "main": "index.js",
   "scripts": {
