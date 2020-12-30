@@ -62,4 +62,8 @@ module.exports = {
 支付宝小程序 `启用 component2 编译` 一定要开启  
 支付宝小程序 `启用 component2 编译` 一定要开启  
 
+注释编译后的`vendor.js`最后一行代码如下
+```
+// Function("r", "regeneratorRuntime = r")(runtime)
+```
 ### MIT
