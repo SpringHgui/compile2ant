@@ -4,7 +4,10 @@ const stripParensRE = /^\(|\)$/g;
 const variableRE = /^\s*[a-zA-Z$_][a-zA-Z\d_]*\s*$/;
 const Check = require('../util/check');
 
-exports = module.exports = function() {
+const wxForRE = /^wx:for/;
+const wxKeyRE = /^wx:key/;
+
+exports = module.exports = function () {
   this.register('template-parse-ast-pre-attr-v-for', function preParseDirectivesFor({
     item,
     name,
@@ -86,6 +89,42 @@ exports = module.exports = function() {
       modifiers,
       scope: currentScope,
       ctx
+    };
+  });
+
+  this.register('template-parse-ast-attr-wx:for', function parseAstBind({ item, name, expr, modifiers, scope, ctx }) {
+    console.log("=template-parse-ast-pre-attr-wx:for=", { item, name, expr, modifiers, scope, ctx });
+
+    let prop = name.replace(wxForRE, 'a:for');
+    let value = expr;
+    return {
+      bind: {
+        name,
+        prop,
+        value,
+        expr
+      },
+      attrs: {
+        [prop]: expr
+      }
+    };
+  });
+
+  this.register('template-parse-ast-attr-wx:key', function parseAstBind({ item, name, expr, modifiers, scope, ctx }) {
+    console.log("=template-parse-ast-pre-attr-wx:for=", { item, name, expr, modifiers, scope, ctx });
+
+    let prop = name.replace(wxKeyRE, 'a:key');
+    let value = expr;
+    return {
+      bind: {
+        name,
+        prop,
+        value,
+        expr
+      },
+      attrs: {
+        [prop]: expr
+      }
     };
   });
 };
