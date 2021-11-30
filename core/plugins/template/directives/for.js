@@ -93,8 +93,6 @@ exports = module.exports = function () {
   });
 
   this.register('template-parse-ast-attr-wx:for', function parseAstBind({ item, name, expr, modifiers, scope, ctx }) {
-    console.log("=template-parse-ast-pre-attr-wx:for=", { item, name, expr, modifiers, scope, ctx });
-
     let prop = name.replace(wxForRE, 'a:for');
     let value = expr;
     return {
