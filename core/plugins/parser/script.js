@@ -19,7 +19,7 @@ exports = module.exports = function() {
       }
 
       if(file.indexOf('\\node_modules\\@wepy\\core\\dist\\wepy.js') > 0){
-        file = file.replace('wepy.js', 'wepy.ant.js');
+        file = file.replace('@wepy\\core\\dist\\wepy.js', 'compile2ant\\dist\\wepy.ant.js');
       }
 
       let data = assets.data(file);
