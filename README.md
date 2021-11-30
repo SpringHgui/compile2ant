@@ -16,7 +16,7 @@ wepy2.0.x 编译为支付宝小程序代码插件
 如编译后不能正常运行，请提交 issue 或直接 pr，会及时进行兼容
 
 ```
-npm install compile2ant -save-dev
+npm install compile2ant --save-dev
 ```
 
 ### 配置
