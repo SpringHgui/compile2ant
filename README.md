@@ -5,14 +5,9 @@
 
 wepy2.0.x 编译为支付宝小程序代码插件
 
-### 注意事项
-插件仅支持 `2.0.0-alpha.21`之后的版本，请将cli先升级至最新版。
-
-`npm install @wepy/cli@next -g`
-
 ### 安装
 
-由于个人精力有限，测试未覆盖支付宝小程序的所有api  
+测试未覆盖支付宝小程序的所有api  
 如编译后不能正常运行，请提交 issue 或直接 pr，会及时进行兼容
 
 ```
@@ -61,9 +56,4 @@ module.exports = {
 支付宝小程序 `启用 component2 编译` 一定要开启  
 支付宝小程序 `启用 component2 编译` 一定要开启  
 支付宝小程序 `启用 component2 编译` 一定要开启  
-
-注释编译后的`vendor.js`最后一行代码如下
-```
-// Function("r", "regeneratorRuntime = r")(runtime)
-```
 ### MIT
