@@ -53,6 +53,11 @@ module.exports = {
 ```
 ### 重要的事情
 
+如果编译后运行报下面的错误，直接注释vendor.js对应的代码
+```
+TypeError: Function(...) is not a function
+```
+
 支付宝小程序 `启用 component2 编译` 一定要开启  
 支付宝小程序 `启用 component2 编译` 一定要开启  
 支付宝小程序 `启用 component2 编译` 一定要开启  
