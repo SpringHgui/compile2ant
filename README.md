@@ -58,7 +58,7 @@ module.exports = {
 TypeError: Function(...) is not a function
 ```
 
-支付宝小程序 `启用 component2 编译` 一定要开启 `启用基础库2.0` 关闭 
-支付宝小程序 `启用 component2 编译` 一定要开启 `启用基础库2.0` 关闭 
-支付宝小程序 `启用 component2 编译` 一定要开启 `启用基础库2.0` 关闭 
+支付宝小程序 `启用 component2 编译` 一定要开启 `启用基础库2.0` 关闭  
+支付宝小程序 `启用 component2 编译` 一定要开启 `启用基础库2.0` 关闭  
+支付宝小程序 `启用 component2 编译` 一定要开启 `启用基础库2.0` 关闭  
 ### MIT
